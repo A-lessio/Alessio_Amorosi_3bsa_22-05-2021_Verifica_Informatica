@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- Work made by: Alessio Amorosi 3BSA -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="splide-2.4.21/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="splide-2.4.21/dist/css/splide.min.css" />
+    <link rel="shortcut icon" href="images/tiger.ico">
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '.splide' ).mount();
+        } );
+    </script>
+
+    <script>
+        var splide = new Splide( '#splide' );
+
+        splide.on( 'autoplay:playing', function ( rate ) {
+        	console.log( rate ); // 0-1
+        } );
+
+splide.mount();
+    </script>
+
+    <title>Powerline</title>
+
+</head>
+<body>
+    
+    <!-- Top Bar -->
+
+    <div id = "top_box">
+        <a href="#slider_box">
+                <img src="images/logo.jpg" alt = "gym's logo" id = "logo">
+          
+        </a>
+        <a href="#slider_box">
+            <img src="images/title.png" alt="gym's name" id = "title">
+        </a>
+        
+        
+    </div>
+
+
+    <!-- Slider -->
+
+    <div id = "slider_box" >
+        <div id="splide" class="splide">
+            <div class="splide__track" style="width: 100%;">
+              <ul class="splide__list" >
+                <li class="splide__slide">  <img class = "slider_images" src="images/photo.jpg"></li>
+                <li class="splide__slide">  <img class = "slider_images" src="images/fitness-center.jpg"></li>
+                <li class="splide__slide">  <img class = "slider_images" src="images/calistenichs.jpg"></li>
+              </ul>
+            </div>
+          </div>
+    </div> 
+
+    <!-- Menu -->
+
+    <div id = "navigation_bar">
+        <h3>Barra di navigazone </h3>
+        <a class = "menu" href="powerlifting.html"> &#8594 Powerlifting</a>
+        <br>
+        <a class = "menu"  href="health.html"> &#8594 Sport e salute</a>
+        <br>
+        <a class = "menu"  href="table.html"> &#8594 Tabella prezzi </a>
+    </div>
+
+    <!-- Columns -->
+
+    <div id = "column0">
+
+        <!-- First images and text  -->
+
+        <img src="images/arnold.jpg" alt = "photo of Arnold" class="column01_images"> 
+        <h1>Palestra old school</h1>
+        <div id = "line0"> <h6>.</h6> </div>
+        <br>
+        <p>Nella nostra <b>Powerline</b> puoi trovare tanta <b>tradizione</b>: ci ispiriamo ai modelli classici arrichendoli però dell'aspetto <b>innovativo</b> dato dalle nuove ricerche</p>
+
+        <!-- Second images and text  -->
+
+        <img src="images/trainer.jpg" alt = "photo of a personal trainer" class="column2_images"> 
+
+        <h1>Trainers eccellenti</h1>
+        <div id = "line2"> <h6>.</h6> </div>
+        <br>
+        <p>Fatti aiutare durante la tua sessione sportiva dai nostri preparatori atletici: <b>istruiti</b> e <b>disponibili</b>, ti assisteranno quando avrai bisogno per la corretta esecuzione del movimento. </p>
+
+    </div>
+
+    <div id = "column1">
+
+        <!-- First images and text  -->
+
+        <img src="images/wheight.jpg" alt = "photo of weights" class = "column01_images">
+        <h1>Gli attrezzi migliori</h1>
+        <div id = "line1"> <h6>.</h6> </div>
+        <br>
+        <p>Per avere il massimo rendimento e piacere ci affidiamo soltanto alle tecnologie migliori: bilanceri <a href="https://www.lacertosus.com/it/?gclid=CjwKCAjwnPOEBhA0EiwA609ReejEkrp33eBOjYRy8hNHlUmH5mYqxr6qOSipYVyq6QmW0xCnkvQMKBoCZZ8QAvD_BwE" target="_blank">lacertosus</a>, 
+        macchine <a href="https://www.technogym.com/it/" target="_blank">tecnogym</a> e tanto altro!</p>
+
+        <!-- Second images and text  -->
+
+        <img src="images/food.jpg" alt = "photo of a personal trainer" class="column2_images"> 
+        <h1>Diete personalizzate</h1>
+        <div id = "line3"> <h6>.</h6> </div>
+        <br>
+        <p>Offriamo anche, per chi volesse, un servizio di <b>piano alimentare basato sulle proprie esigenze</b> ideato dal nostro team di <b>esperti</b> che farà avere il massimo dal proprio corpo atletico.</p>
+
+    </div>
+
+    <!--Last image -->
+
+    <div id = "big_image_box">
+
+        <img src="images/motivationposter.jpg" alt = "motivation poster" id = "big_image">
+
+    </div>
+
+
+    
+    <!--Footer -->
+
+    <div id = "footer">
+        <img src="images/powerline.jpg" alt = "gym's logo" id = "footer_image">
+        <div id = footer_inside_box>
+
+            <h4><i>&Aopf;ttenzione! Tutti i riferimenti sono puramente a scopo didattico. Lavoro svolto da Alessio Amorosi</i></h4>
+        </div>
+        <div id = "black_space"></div>
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,249 @@
+/*  ----------------------------------------------------------------------------------------------------------------- */
+/*  General css */
+/*  ----------------------------------------------------------------------------------------------------------------- */
+
+body {
+    background-color: black;
+    margin: 0%;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+h3 {
+    margin-block-end: 0%;
+    margin-block-start: 0%;
+    font-size: 2.2vw;
+    color: yellow;
+    border-bottom: 1px;
+    border-color: yellow;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+h4 {
+    font-size: 1.4vw;
+    text-align: left;
+}
+
+
+/*  ----------------------------------------------------------------------------------------------------------------- */
+/*  Id css */
+/*  ----------------------------------------------------------------------------------------------------------------- */
+
+    /*  Top bar */
+    #top_box {
+        background-color: white;
+        height: 7vw;
+        margin-bottom: -1.2%;
+        position: fixed;
+        width: 100%;
+        margin-top: -0.9%;
+        z-index: 2;
+    }
+    
+    #logo {
+        width: 9%;
+        height: 7vw;
+        border-radius: 25%;
+        margin-left: 9%;
+        margin-top: 1%;
+        
+        
+    }
+    
+    #title {
+        width: 9%;
+        float: right;
+        height: 7vw;
+    }
+
+        /*  Navigation bar */
+
+#navigation_bar {
+    position: fixed;
+    width: 450px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 3px;
+    border-style: solid;
+    border-color: yellow;
+    margin-left: 71%;
+    margin-top: 15%;
+    float: left;
+    padding-left: 2%;
+}
+
+#main_column {
+
+    width: 44%;
+    padding: 13%;
+}
+
+#special_image {
+    margin-top: -16%;
+}
+
+    /* Footer */
+
+    #footer {
+        background-color: white;
+        height: 14vw;
+        width: 100%;
+        bottom: 0;
+        z-index: 2;
+        clear: both;
+    }
+    
+    #footer_image {
+        margin-top: 1%;
+        width: 20%;
+        height: 12vw;
+        margin-left: 8.85%;
+    }
+    
+    #footer_inside_box {
+        border-left: 3px solid rgba(29 29 29 / 26%);
+        width: 19%;
+        float: right;
+        margin-top: 1%;
+        height: 8vw;
+        margin-right: 49%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+    }
+    
+    #black_space {
+        float: right;
+        height: 14.69vw;
+        width: 32%;
+        background-color: black;
+        margin-top: -14%;
+    }
+    
+/*  ----------------------------------------------------------------------------------------------------------------- */
+/*  Class css */
+/*  ----------------------------------------------------------------------------------------------------------------- */
+
+
+    /* Navigation bar */
+
+    /* Navigation bar */
+    .menu {
+        color: yellow;
+        font-size: 1.8vw;
+    }
+
+
+/* -------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------*/
+/* Mobile css */ 
+/* -------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 750px) {
+
+/*  ----------------------------------------------------------------------------------------------------------------- */
+/*  General css */
+/*  ----------------------------------------------------------------------------------------------------------------- */
+h3 {
+    background-color: black;
+    text-align:center;
+    font-size: 3.5vw;
+}
+h4 {
+    font-size: 2.5vw;
+}
+
+/*  ----------------------------------------------------------------------------------------------------------------- */
+/*  Id css */
+/*  ----------------------------------------------------------------------------------------------------------------- */
+
+/* Top box */
+
+#top_box {
+    height: 10vw;
+}
+#logo {
+    height: 10vw;
+    width: 14%;
+}
+
+#title {
+    height: 10vw;
+    width: 17%;
+}
+
+#navigation_bar {
+    width: 98%;
+    border: 0;
+    padding-left: 2%;
+    position: static;
+    margin-top: 15%;
+    margin-left: 0%;
+    margin-bottom: 18%;
+}
+
+/* Main column */
+
+#main_column {
+    width: 74%;
+    padding: 13%;
+    margin-top: 2;
+    padding-top: 21%;
+}
+
+/* Footer */
+#footer {
+    width: 100%;
+    height: 62vw;
+
+}
+
+#footer_image {
+    margin-top: 3%;
+    width: 80%;
+    height: 30vw;
+    margin-bottom: 0%;
+}
+
+#footer_inside_box {
+    border-left: 0;
+    width: 80%;
+    margin-top: 3%;
+    height: 8vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 0%;
+    margin-left: 8%;
+    float: left;
+}
+
+#black_space {
+    width: 0%;
+}
+
+
+/*  ----------------------------------------------------------------------------------------------------------------- */
+/*  Class css */
+/*  ----------------------------------------------------------------------------------------------------------------- */
+
+
+    /* Navigation bar */
+
+    .menu {
+        color: yellow;
+        font-size: 3vw;
+        background-color: black;
+        text-align: center;
+        padding-left: 38%;
+    }
+
+}
